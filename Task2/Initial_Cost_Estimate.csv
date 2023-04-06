@@ -1,0 +1,22 @@
+﻿Estimate summary
+Upfront cost,Monthly cost,Total 12 months cost,Currency
+0,9065.684,108788.21,USD
+,,* Includes upfront cost
+
+
+Detailed Estimate
+Group hierarchy,Region,Description,Service,Upfront,Monthly,First 12 months total,Currency,Configuration summary
+My Estimate,US East (N. Virginia),Route 53,Amazon Route 53,0,475,5700.00,USD,"Additional Records in Hosted Zones (), Basic Checks Within AWS (1000), Hosted Zones ()"
+My Estimate,US East (N. Virginia),VPC,Network Address Translation (NAT) Gateway,0,2336.85,28042.20,USD,Number of NAT Gateways (1)
+My Estimate,US East (N. Virginia),S3 Storage,S3 Standard,0,1177.6,14131.20,USD,S3 Standard storage (50 TB per month)
+My Estimate,US East (N. Virginia),S3 Storage,Data Transfer,0,0,0.00,USD,
+My Estimate,US East (N. Virginia),Web Servers,Amazon EC2 ,0,551.7748,6621.30,USD,"Tenancy (Shared Instances), Operating system (Linux), Workload (Consistent, Number of instances: 4), Advance EC2 instance (m6i.large), Pricing strategy ( 3 Year  None upfront), EBS DT Inbound: Not selected (0 TB per month), DT Outbound: Not selected (0 TB per month), DT Intra-Region: (0 TB per month), Enable monitoring (disabled)"
+My Estimate,US East (N. Virginia),App Servers,Amazon EC2 ,0,949.1692,11390.03,USD,"Tenancy (Shared Instances), Operating system (Linux), Workload (Consistent, Number of instances: 4), Advance EC2 instance (c6gn.large), Pricing strategy ( 3 Year  None upfront), EBS DT Inbound: Not selected (0 TB per month), DT Outbound: Not selected (0 TB per month), DT Intra-Region: (0 TB per month), Enable monitoring (disabled)"
+My Estimate,US East (N. Virginia),MySQL,Amazon RDS for MySQL,0,2928.4400000000005,35141.28,USD,"Storage for each RDS instance (General Purpose SSD (gp2)), Storage amount (1 TB), Quantity (2), Instance type (db.m2.2xlarge), Utilization (On-Demand only) (100 %Utilized/Month), Deployment option (Multi-AZ), Pricing strategy (OnDemand), Additional backup storage (5 TB)"
+My Estimate,US East (N. Virginia),ALB,Application Load Balancer,0,616.85,7402.20,USD,Number of Application Load Balancers (2)
+My Estimate,US East (N. Virginia),Monitoring,Amazon CloudWatch,0,30,360.00,USD,Number of Metrics (includes detailed and custom metrics) (100)
+
+
+
+Acknowledgement
+"* AWS Pricing Calculator provides only an estimate of your AWS fees and doesn't include any taxes that might apply. Your actual fees depend on a variety of factors, including your actual usage of AWS services."
